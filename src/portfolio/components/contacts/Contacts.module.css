@@ -1,0 +1,46 @@
+.contacts {
+    position: relative;
+    min-height: 80vh;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+.contacts a {
+    position: absolute;
+    top: -60px;
+}
+
+.contacts .contContainer {
+    /*border: 1px solid red;*/
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contacts .contContainer .line {
+    width: 100px;
+    height: 2px;
+    background-color: #d728d7;
+    margin-bottom: 25px;
+}
+
+.contacts .contContainer .inputs {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contacts .contContainer .inputs .bc {
+    width: 50vh;
+    background-color: #282828;
+}

@@ -1,0 +1,50 @@
+.preheader {
+    position: fixed;
+    width: 100%;
+    background-color: #28d728;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.preheader .header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preheader .header .navContainer {
+    /*border: 1px solid red;*/
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.preheader .header .navContainer .navbar {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preheader .header .navContainer .navbar .link {
+    padding: 5px;
+}
+
+.preheader .header .navContainer .navbar .link:hover {
+    background-color: #d728d7;
+}
+
+.preheader .line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 400px){
+    .preheader .header .navContainer {
+        width: 95%;
+    }
+}

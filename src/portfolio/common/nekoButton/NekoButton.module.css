@@ -1,0 +1,11 @@
+.b {
+    background-color: #28d728;
+    color: black;
+    padding: 15px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 100%;
+}
+
+.b:hover {
+    background-color: #d728d7;
+}

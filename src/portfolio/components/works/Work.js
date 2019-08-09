@@ -5,9 +5,13 @@ import Title from "../../common/title/Title";
 const Work = (props) => {
     return <div className={s.work}>
         <div className={s.img}>
-            work
+            <a href={props.src}>
+            <img src={props.src} alt={'work'}/>
+            </a>
         </div>
-        <Title t={props.name}/>
+        <a href={props.href}>
+            <Title t={props.name}/>
+        </a>
         <div className={s.about}>
             {props.about}
         </div>

@@ -1,6 +1,6 @@
 .contacts {
     position: relative;
-    min-height: 80vh;
+    min-height: 50vh;
     background-color: #202020;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     font-size: 200%;
 }
 
-.contacts a {
+.contacts .a {
     position: absolute;
     top: -60px;
 }
@@ -16,7 +16,7 @@
 .contacts .contContainer {
     /*border: 1px solid red;*/
     width: 80%;
-    min-height: 70vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

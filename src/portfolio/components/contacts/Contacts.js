@@ -9,13 +9,13 @@ const Contacts = () => {
         <div className={s.contContainer}>
             <Title t={'Contact'}/>
             <div className={s.line}/>
-            <div className={s.inputs}>
-                ai73a@yandex.ru
-                {/*<input placeholder={'Name'} className={s.bc}/>
+            ai73a@yandex.ru
+            {/*<div className={s.inputs}>
+                <input placeholder={'Name'} className={s.bc}/>
                 <input placeholder={'Email'} className={s.bc}/>
-                <textarea rows={7} className={s.bc}/>*/}
+                <textarea rows={7} className={s.bc}/>
             </div>
-            {/*<NekoButton t={'SEND MESSAGE'}/>*/}
+            <NekoButton t={'SEND MESSAGE'}/>*/}
         </div>
     </div>
 };

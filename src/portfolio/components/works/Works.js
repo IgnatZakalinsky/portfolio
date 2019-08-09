@@ -10,7 +10,9 @@ const Works = () => {
             <Title t={'My Works'}/>
             <div className={s.line}></div>
             <div className={s.myWorks}>
-                <Work name={'NekoCafes'} about={'social network with cafes'}/>
+                <Work name={'NekoCafes'} about={'social network with cafes'}
+                      src={'https://sun9-55.userapi.com/c851032/v851032963/18b67e/jxW663ZJMHw.jpg'}
+                      href={'https://github.com/IgnatZakalinsky/nc'}/>
                 <Work name={'nextWork'} about={'in progress...'}/>
             </div>
         </div>

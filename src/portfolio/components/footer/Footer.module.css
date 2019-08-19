@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     font-size: 200%;
+    text-align: center;
 }
 
 .footer .footerContainer {
@@ -17,7 +18,7 @@
 }
 
 .footer .footerContainer .sns {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
@@ -27,6 +28,7 @@
     height: 50px;
     background: #202020;
     border: 2px solid #d728d7;
+    z-index: 2;
 }
 
 .footer .footerContainer .sns .sn img {
@@ -36,6 +38,6 @@
 
 @media screen and (max-width: 700px) {
     .footer .footerContainer .sns {
-        width: 85%;
+        width: 90%;
     }
 }

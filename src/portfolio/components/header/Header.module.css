@@ -2,7 +2,8 @@
     position: fixed;
     width: 100%;
     background-color: #28d728;
-    z-index: 2;
+    z-index: 5;
+    /*opacity: 0.9;*/
 }
 
 a {

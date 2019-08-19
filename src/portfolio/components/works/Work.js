@@ -9,7 +9,7 @@ const Work = (props) => {
             <img src={props.src} alt={'work'}/>
             </a>
         </div>
-        <a href={props.href}>
+        <a href={props.href} target="_blank">
             <Title t={props.name}/>
         </a>
         <div className={s.about}>

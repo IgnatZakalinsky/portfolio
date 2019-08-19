@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     font-size: 150%;
+    z-index: 2;
 }
 
 .skills .a {
@@ -21,6 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .skills .skillsContainer .line {
@@ -39,7 +41,7 @@
 }
 
 .skills .skillsContainer .skillsBlocks .skillsBlock {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     /*border: 1px solid blue;*/
     width: 200px;
     height: 300px;
@@ -54,11 +56,13 @@
     width: 100px;
     height: 100px;
     background: #282828;
+    transform: rotate(45deg);
 }
 
 .skills .skillsContainer .skillsBlocks .skillsBlock .img img {
     width: 100px;
     height: 100px;
+    transform: rotate(-45deg);
 }
 
 .skills .skillsContainer .skillsBlocks .skillsBlock .about {

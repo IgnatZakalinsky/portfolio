@@ -3,3 +3,7 @@
     padding: 10px;
     color: #28d728;
 }
+
+.title:hover {
+    background: #d728d7;
+}

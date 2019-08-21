@@ -8,7 +8,10 @@ const Skill = (props) => {
             <img src={props.src}
                  alt={'logo'}/>
         </div>
-        <Title t={props.name}/>
+        <a href={props.study} target="_blank">
+            <Title t={props.name}/>
+        </a>
+
         <div className={s.about}>
             {props.about}
         </div>

@@ -17,6 +17,10 @@ const Main = () => {
             </div>
             <div className={s.photoContainer}>
                 <div className={s.photo}>
+                    <div>здесь могла</div>
+                    <div>бы быть</div>
+                    <div>ваша реклама</div>
+                    <div>:)</div>
                 </div>
                 <div className={s.border}/>
             </div>

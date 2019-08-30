@@ -16,12 +16,13 @@ const Main = () => {
                 <span>A <Title t={'Front-End'}/> Developer</span>
             </div>
             <div className={s.photoContainer}>
-                <div className={s.photo}>
+                <img src={'https://sun9-51.userapi.com/c850136/v850136493/1c9104/4Kjcx40ZOcM.jpg'} alt={'photo'}/>
+                {/*<div className={s.photo}>
                     <div>здесь могла</div>
                     <div>бы быть</div>
                     <div>ваша реклама</div>
                     <div>:)</div>
-                </div>
+                </div>*/}
                 <div className={s.border}/>
             </div>
         </div>

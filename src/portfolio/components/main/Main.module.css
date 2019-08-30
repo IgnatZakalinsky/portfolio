@@ -46,6 +46,11 @@
     z-index: 1;
 }
 
+.main .mainContainer .photoContainer img {
+    min-width: 240px;
+    height: 300px;
+}
+
 .main .mainContainer .photoContainer .photo {
     min-width: 240px;
     height: 300px;

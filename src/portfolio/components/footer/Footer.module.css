@@ -27,13 +27,17 @@
     width: 50px;
     height: 50px;
     background: #202020;
-    border: 2px solid #d728d7;
+    padding: 35px 0;
+    border: 2px double #d728d7;
+    border-radius: 22px;
+    transform: rotate(15deg);
     z-index: 2;
 }
 
 .footer .footerContainer .sns .sn:hover {
     /*filter: saturate(900%);*/
     filter: hue-rotate(270deg);
+    transform: rotate(0);
 }
 
 .footer .footerContainer .sns .sn img {

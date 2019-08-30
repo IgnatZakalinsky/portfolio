@@ -13,7 +13,9 @@ const Works = () => {
                 <Work name={'NekoCafes'} about={'social network with cafes'}
                       src={'https://sun9-55.userapi.com/c851032/v851032963/18b67e/jxW663ZJMHw.jpg'}
                       href={'https://github.com/IgnatZakalinsky/nc'}/>
-                <Work name={'nextWork'} about={'in progress...'}/>
+                <Work name={'TodoLists'} about={'todoLists with save on server'}
+                      src={'https://sun9-20.userapi.com/c851132/v851132493/1a39ec/zB2YqLG6uVY.jpg'}
+                      href={'https://github.com/IgnatZakalinsky/todoList'}/>
             </div>
         </div>
     </div>

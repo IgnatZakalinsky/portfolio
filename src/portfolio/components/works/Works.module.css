@@ -45,6 +45,9 @@
 }
 
 .works .worksContainer .myWorks .work .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 256px;
     height: 256px;
     background: #28d728;
